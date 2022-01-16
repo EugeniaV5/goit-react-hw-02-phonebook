@@ -13,6 +13,7 @@ export const Filter = ({ value, onChange }) => {
           name="name"
           value={value}
           onChange={onChange}
+          autoComplete="off"
         />
       </FilterLabel>
     </div>

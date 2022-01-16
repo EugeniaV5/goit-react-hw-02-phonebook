@@ -17,7 +17,7 @@ export const DeleteBtn = styled.button`
   border: none;
   border-radius: 5px;
   padding: 0px 25px;
-  background: transparent;
+  background: #a9dbd8;
   cursor: pointer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;

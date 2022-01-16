@@ -5,13 +5,21 @@ export const Form = styled.form`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
-  padding-bottom: 10px;
-  outline: 1px solid black;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* outline: 1px solid black; */
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+`;
+
+export const LabelInputWrapper = styled.div`
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 `;
 
 export const Label = styled.p`
-  margin-bottom: 10px;
+  margin-right: 5px;
 `;
 
 export const Input = styled.input`
@@ -19,7 +27,6 @@ export const Input = styled.input`
   height: 20px;
 
   padding-left: 10px;
-  margin-bottom: 10px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
 
@@ -38,7 +45,7 @@ export const FormButton = styled.button`
   border: none;
   border-radius: 5px;
   padding: 0px 25px;
-  background: transparent;
+  background: #a9dbd8;
   cursor: pointer;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-block;
