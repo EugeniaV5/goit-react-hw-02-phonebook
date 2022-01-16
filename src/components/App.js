@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ContactForm from './ContactForm/ContactForm';
 import { ContactList } from './ContactList/ContactList';
 import { Filter } from './Filter/Filter';
+import { Title } from './ContactList/ContactItem.styled';
 
 class App extends Component {
   state = {
@@ -52,7 +53,7 @@ class App extends Component {
       <>
         <h1>Phonebook</h1>
         <ContactForm onSubmit={this.submitHandler} />
-        <h2>Contacts</h2>
+        <Title>Contacts</Title>
         <Filter value={filter} onChange={this.changeFilter} />
         <ContactList
           contacts={filteredContacts}
